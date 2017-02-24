@@ -1,7 +1,7 @@
 @charset 'utf-8';
 
 .plus-tab .icon,.plus-tab .icon-a:before,.plus-tab-first .icon-a:after{background:url(menuplus.png) no-repeat;background-size:5.6rem 5.4rem;}
-.plus-tab .icon{height:1.6rem;width:1.6rem;line-height:1.6rem;border:5px solid #fff;border-radius:50%;position:relative;margin-bottom:.5rem;opacity:0;-webkit-transition-duration:.5s;transition-duration:.5s;}
+.plus-tab .icon{height:1.6rem;width:1.6rem;line-height:1.6rem;border:5px solid #fff;border-radius:50%;position:relative;margin-bottom:.5rem;opacity:0;-webkit-transition-duration:.5s;transition-duration:.5s;list-style:none;}
 .plus-tab .icon:before{content:attr(data-title);color:#fff;font-size:.56rem;position:absolute;top:50%;right:100%;margin-top:-.8rem;padding-right:.5rem;white-space:nowrap;}
 .plus-tab .icon-a{background-position:0 -.56rem;border-color:#fc3342;background-color:#fc3342;box-shadow:0 0 .2rem rgba(0,0,0,.25);opacity:1;z-index:1;}
 .plus-tab .icon-a:before{background-position:0 -3.76rem;right:0;left:-.4rem;width:2.4rem;height:1.6rem;padding:0;}
